@@ -1,0 +1,16 @@
+.card {
+	max-width: 336px;
+	margin: 0 auto;
+}
+.rc-anchor-pt { display:none; }
+.g-recaptcha {
+	display: inline-block;
+}
+.recaptcha-container {
+	min-height: 84px;
+	text-align: center;
+	margin: 0 auto 10px;
+}
+h3 {
+	color: white;
+}

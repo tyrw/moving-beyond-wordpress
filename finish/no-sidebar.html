@@ -16,41 +16,41 @@
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<body>
+	<body component-cloak>
 
-		<!-- Wrapper -->
-			<div class="wrapper style1">
+	<!-- Wrapper -->
+		<div class="wrapper style1">
 
-				<!-- Header -->
-					<div id="header" class="skel-panels-fixed">
-						<div id="logo">
-							<h1><a href="index.html">Phase Shift</a></h1>
-							<span class="tag">by TEMPLATED</span>
-						</div>
-						<nav id="nav">
-							<ul>
-								<li class="active"><a href="index.html">Homepage</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
-							</ul>
-						</nav>
+			<!-- Header -->
+				<div id="header" class="skel-panels-fixed">
+					<div id="logo">
+						<h1><a href="index.html">Phase Shift</a></h1>
+						<span class="tag">by TEMPLATED</span>
 					</div>
-				<!-- Header -->
+					<nav id="nav">
+						<ul>
+							<li class="active"><a href="index.html">Homepage</a></li>
+							<li><a href="no-sidebar.html">No Sidebar</a></li>
+						</ul>
+					</nav>
+				</div>
+			<!-- Header -->
 
-				<!-- Page -->
-					<div id="page" class="container">
-						<component key=oadmb></component>
+			<!-- Page -->
+				<div id="page" class="container">
+					<component key=oadmb></component> <!-- Content block component -->
+				</div>
+			<!-- /Page -->
+
+			<!-- Main -->
+				<div id="main">
+					<div class="container">
+						<component key=aardm></component> <!-- Feature section component -->
 					</div>
-				<!-- /Page -->
+				</div>
+			<!-- /Main -->
 
-				<!-- Main -->
-					<div id="main">
-						<div class="container">
-							<component key=aardm></component>
-						</div>
-					</div>
-				<!-- /Main -->
-
-	</div>
+		</div>
 
 	<!-- Footer -->
 		<div id="footer" class="wrapper style2">
@@ -60,11 +60,10 @@
 						<h2>Mauris vulputate dolor</h2>
 						<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
 					</header>
-					<component key=mnark></component>
+					<component key=mnark></component> <!-- Form component -->
 				</section>
 			</div>
 		</div>
-	<!-- /Footer -->
 
 	<!-- Copyright -->
 		<div id="copyright">
@@ -80,6 +79,7 @@
 
 
 	<!-- Scripts -->
+		<!-- Component IO script: be sure to substitute your own value for "project" -->
 		<script project="8PNNP8" src="https://cdn.component.io/v1"></script>
 
 		<script src="js/jquery.min.js"></script>
@@ -87,7 +87,6 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
-
 
 	</body>
 </html>

@@ -1,0 +1,7 @@
+icon
+  - type: Simple text
+  - repeat: true
+
+content
+  - type: Rich text (HTML)
+  - repeat: true

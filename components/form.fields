@@ -1,0 +1,23 @@
+nameLabel
+  - type: Simple text
+  - repeat: false
+
+emailLabel
+  - type: Simple text
+  - repeat: false
+
+messageLabel
+  - type: Simple text
+  - repeat: false
+
+buttonType
+  - type: Select (Multi choice)
+  - repeat: false
+
+buttonText
+  - type: Simple text
+  - repeat: false
+
+reCaptcha
+  - type: Boolean (True/False)
+  - repeat: false

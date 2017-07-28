@@ -1,0 +1,29 @@
+<form @submit="submit" v-if="!success">
+	<div class="row half">
+		<div class="12u">
+			<input class="text" type="text" name="name" v-model="name" placeholder="Name" />
+		</div>
+	</div>
+	<div class="row half">
+		<div class="12u">
+			<input class="text" type="text" name="email" v-model="email" placeholder="Email" />
+		</div>
+	</div>
+	<div class="row half">
+		<div class="12u">
+			<textarea name="message" v-model="message" placeholder="Message"></textarea>
+		</div>
+	</div>
+	<div class="row half">
+		<div class="12u">
+			<ul class="actions">
+				<li>
+					<input type="submit" :value="buttonText || 'Submit'" class="button alt" />
+				</li>
+			</ul>
+		</div>
+	</div>
+</form>
+<h3 v-if="success">
+	Message sent
+</h3>
