@@ -26,8 +26,8 @@ component.methods = {
 		// reCAPTCHA
 		var recaptchaResponse = (window.grecaptcha && grecaptcha.getResponse()) || !this.reCaptcha
 		if (!recaptchaResponse) return this.alert = 'Please check the reCAPTCHA box'
-    Component.axios.post(Component.ApiUrl + 'posts', {
-      project: Component.Project,
+    Anymod.axios.post(Anymod.ApiUrl + 'posts', {
+      project: Anymod.Project,
       component: this.componentKey,
 			recaptcha: recaptchaResponse,
       data: {
